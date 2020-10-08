@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Fake News",
+    "version": "1.07",
+    "description": "We're going to put fake news meme in google news website!",
+    "content_scripts": [
+        {
+            "matches": ["https://news.google.com/*"],
+            "js": ["jquery.min.js", "./main.js"],
+            "css": ["./style.css"]
+        }
+    ]
+}
