@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Fake News",
-    "version": "1.07",
+    "version": "1.12",
     "description": "We're going to put fake news meme in google news website!",
     "content_scripts": [
         {
